@@ -1,0 +1,26 @@
+.app-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: #2c3e50;
+	color: #fefefe;
+
+	.logo {
+		p {
+			font-weight: bold;
+			font-size: 1.2rem;
+		}
+	}
+
+	.nav {
+		a {
+			font-weight: bold;
+			color: #fefefe;
+
+			&.router-link-exact-active {
+				color: #42b983;
+			}
+		}
+	}
+}
